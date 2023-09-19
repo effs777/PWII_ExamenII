@@ -1,0 +1,11 @@
+<div class="filter">
+  <label for="datePicker">Seleccionar fecha: </label>
+  <input type="date" id="datePicker" [(ngModel)]="selectedDate" (change)="filterByDate()" />
+</div>
+
+<div class="image-container" *ngIf="nasaFilterByDate" class="p-3 m-5 text-center bg-white rounded shadow">
+  <img [src]="nasaFilterByDate.url" alt="APOD"/> 
+  <h2>{{ nasaFilterByDate.title }}</h2>
+  <p>{{ nasaFilterByDate.explanation }}</p>
+  <p>{{ nasaFilterByDate.copyright }} | {{ nasaFilterByDate.date }}</p>
+</div>
