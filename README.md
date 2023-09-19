@@ -9,7 +9,6 @@ Eduardo Flores | T32311172
 ## Tabla de Contenidos
 
 - [Requisitos](#requisitos)
-- [Instalación](#instalación)
 - [Uso](#uso)
 - [Características](#características)
 
